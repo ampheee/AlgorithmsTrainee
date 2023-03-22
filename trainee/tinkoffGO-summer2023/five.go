@@ -1,5 +1,18 @@
 package tinkoffGO_summer2023
 
+//
+//func third() {
+//	in := bufio.NewReader(os.Stdin)
+//	out := bufio.NewWriter(os.Stdout)
+//	defer out.Flush()
+//}
+//
+//func fourth() {
+//	in := bufio.NewReader(os.Stdin)
+//	out := bufio.NewWriter(os.Stdout)
+//	defer out.Flush()
+//}
+
 //Саша ведет бюджет и анализирует, как изменялся баланс на его счету. Он выписал числа a1, a2, ..., an  — изменения баланса за последние n дней
 //Отрезок из дней [i,j] Саша считает разумным, если суммарное изменение баланса с i-го по j-й день равно нулю, т.е. a_i + a_{i+1} + ... + a_j=0.
 //Отрезок из дней [l,r] считается нормальным, если внутри данного отрезка можно найти разумный подотрезок.
